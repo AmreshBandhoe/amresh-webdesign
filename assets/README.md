@@ -4,6 +4,7 @@
 |---|---|
 | `hero.png` | Home hero background, Over mij portrait |
 | `faralobi-1-hero.jpg` … `faralobi-4-sfeer.jpg` | Faralobi portfolio slideshow (hero, Ons verhaal, Menukaart, Sfeer) |
+| `surinamespreekt-1-hero.jpg` … `surinamespreekt-4-voorstellen.jpg` | Suriname Spreekt portfolio slideshow (hero, nieuws met stelling, Opinie Index dashboard, Voorstellen) |
 | `tikisu-1-hero.jpg` … `tikisu-4-nieuwsbrief.jpg` | TikiSu portfolio slideshow (hero, uitgelichte evenementen, categorieën, nieuwsbrief) |
 | `work2.png` | Social Media Instellingen portfolio thumbnail |
 | `work3.png` | Financial Life Plan portfolio thumbnail |
@@ -38,11 +39,19 @@ plus a short settle wait, same script pattern as Faralobi. They carry a small
 live site currently renders (it's a Lovable-hosted preview) — left in rather
 than edited out, since these are meant to be honest screenshots of the site.
 
+## The Suriname Spreekt screenshots
+
+`surinamespreekt-*.jpg` are real screenshots of
+<https://suriname-spreekt.lovable.app>, captured the same way as TikiSu (plain
+React SPA, no scroll-gated animations) from four routes: `/` (hero), `/nieuws`
+(article + stelling voting), `/dashboard` (the "Index" nav item — the actual
+route differs from its label), and `/voorstellen`.
+
 ## The slideshow
 
-A project with more than one `media` entry (currently Faralobi and TikiSu)
-renders as a crossfading slideshow instead of a static image — see
-`mediaMarkup()` / `initSlideshows()` in `app.js` and the `.slideshow` rules in
-`styles.css`. It appears on the portfolio card, the home "Recente projecten"
-card, and the detail modal. The crossfade is skipped under
+A project with more than one `media` entry (currently Faralobi, Suriname
+Spreekt and TikiSu) renders as a crossfading slideshow instead of a static
+image — see `mediaMarkup()` / `initSlideshows()` in `app.js` and the
+`.slideshow` rules in `styles.css`. It appears on the portfolio card, the home
+"Recente projecten" card, and the detail modal. The crossfade is skipped under
 `prefers-reduced-motion: reduce`, settling on the first image.

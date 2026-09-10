@@ -22,6 +22,18 @@
       long: 'Een warme, sfeervolle website voor restaurant Faralobi. Met een dagelijkse menukaart per categorie, een sfeeropnamegalerij en een reserveringsformulier dat direct per e-mail of WhatsApp bij de eigenaar belandt.'
     },
     {
+      id: 'surinamespreekt', title: 'Suriname Spreekt', cat: 'Website', tag: 'Nieuws- en opinieplatform',
+      url: 'https://suriname-spreekt.lovable.app/nieuws',
+      media: [
+        { src: 'assets/surinamespreekt-1-hero.jpg', alt: 'Suriname Spreekt — startpagina "Suriname Spreekt." met live stemcijfers' },
+        { src: 'assets/surinamespreekt-2-nieuws.jpg', alt: 'Suriname Spreekt — nieuwsartikel met bijbehorende stelling om direct op te stemmen' },
+        { src: 'assets/surinamespreekt-3-index.jpg', alt: 'Suriname Spreekt — De Opinie Index dashboard met sentiment en stemtrends' },
+        { src: 'assets/surinamespreekt-4-voorstellen.jpg', alt: 'Suriname Spreekt — Populaire Voorstellen, waar bezoekers zelf onderwerpen voordragen' }
+      ],
+      desc: 'Nieuws- en opinieplatform waarop bezoekers direct stemmen op actuele stellingen.',
+      long: 'Voor Suriname Spreekt ontwierp en bouwde ik een modern, responsief webplatform dat nieuws en publieke opinie combineert. Gebruikers stemmen direct op actuele stellingen, lezen AI-samenvattingen van discussies, volgen opinietrends via een dashboard en kunnen zelf onderwerpen voorstellen. De interface is volledig tweetalig (NL/EN) en geoptimaliseerd voor mobiel gebruik.'
+    },
+    {
       id: 'tikisu', title: 'TikiSu', cat: 'Website', tag: 'Ticketingplatform',
       url: 'https://suriname-event-spark.lovable.app',
       media: [
