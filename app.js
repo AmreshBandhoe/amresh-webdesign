@@ -22,6 +22,18 @@
       long: 'Een warme, sfeervolle website voor restaurant Faralobi. Met een dagelijkse menukaart per categorie, een sfeeropnamegalerij en een reserveringsformulier dat direct per e-mail of WhatsApp bij de eigenaar belandt.'
     },
     {
+      id: 'tikisu', title: 'TikiSu', cat: 'Website', tag: 'Ticketingplatform',
+      url: 'https://suriname-event-spark.lovable.app',
+      media: [
+        { src: 'assets/tikisu-1-hero.jpg', alt: 'TikiSu — startpagina met "Ontdek de mooiste evenementen van Suriname" en zoekbalk' },
+        { src: 'assets/tikisu-2-trending.jpg', alt: 'TikiSu — uitgelichte evenementen zoals Kaseko Festival en Natio vs. Guyana' },
+        { src: 'assets/tikisu-3-categorie.jpg', alt: 'TikiSu — overzicht van categorieën zoals Concerten, Sport en Theater' },
+        { src: 'assets/tikisu-4-nieuwsbrief.jpg', alt: 'TikiSu — nieuwsbriefsectie en footer' }
+      ],
+      desc: 'Ticketingplatform voor concerten, festivals, sport en cultuur in Suriname.',
+      long: 'Een ticketingplatform waarop bezoekers evenementen zoeken op naam, locatie en datum, en boeken via een overzicht van uitgelichte, populaire en binnenkort startende evenementen — met een indeling per categorie van concerten tot sport, theater en religie.'
+    },
+    {
       id: 'social', title: 'Social Media Instellingen', cat: 'Branding', tag: 'Social Media Management',
       media: [{ src: 'assets/work2.png', alt: 'Social Media Instellingen' }],
       desc: 'Contentstrategie en visuele stijl voor social kanalen.',

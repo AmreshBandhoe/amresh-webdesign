@@ -4,6 +4,7 @@
 |---|---|
 | `hero.png` | Home hero background, Over mij portrait |
 | `faralobi-1-hero.jpg` … `faralobi-4-sfeer.jpg` | Faralobi portfolio slideshow (hero, Ons verhaal, Menukaart, Sfeer) |
+| `tikisu-1-hero.jpg` … `tikisu-4-nieuwsbrief.jpg` | TikiSu portfolio slideshow (hero, uitgelichte evenementen, categorieën, nieuwsbrief) |
 | `work2.png` | Social Media Instellingen portfolio thumbnail |
 | `work3.png` | Financial Life Plan portfolio thumbnail |
 
@@ -27,11 +28,21 @@ wasn't enough — it needed gradual, settled scroll steps toward each section's
 process if the live site's content changes and the thumbnails go stale — there
 is no cached script in this repo, it was a one-off capture.
 
+## The TikiSu screenshots
+
+`tikisu-*.jpg` are real screenshots of
+<https://suriname-event-spark.lovable.app>, a plain React SPA — no
+scroll-gated animations, so these were just `window.scrollTo` to each section
+plus a short settle wait, same script pattern as Faralobi. They carry a small
+"Edit with Lovable" badge in the bottom-right corner because that's what the
+live site currently renders (it's a Lovable-hosted preview) — left in rather
+than edited out, since these are meant to be honest screenshots of the site.
+
 ## The slideshow
 
-A project with more than one `media` entry (currently just Faralobi) renders
-as a crossfading slideshow instead of a static image — see `mediaMarkup()` /
-`initSlideshows()` in `app.js` and the `.slideshow` rules in `styles.css`. It
-appears on the portfolio card, the home "Recente projecten" card, and the
-detail modal. The crossfade is skipped under `prefers-reduced-motion: reduce`,
-settling on the first image.
+A project with more than one `media` entry (currently Faralobi and TikiSu)
+renders as a crossfading slideshow instead of a static image — see
+`mediaMarkup()` / `initSlideshows()` in `app.js` and the `.slideshow` rules in
+`styles.css`. It appears on the portfolio card, the home "Recente projecten"
+card, and the detail modal. The crossfade is skipped under
+`prefers-reduced-motion: reduce`, settling on the first image.
