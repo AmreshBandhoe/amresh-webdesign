@@ -10,16 +10,28 @@
 
   var PROJECTS = [
     {
-      id: 'faralobi', title: 'Faralobi', cat: 'Website', tag: 'Website & Branding',
-      url: 'https://faralobi.netlify.app/',
+      id: 'erfeniswijzer', title: 'De Erfeniswijzer', cat: 'Website', tag: 'Website & Content',
+      url: 'https://erfenis-rust-gids.abandhoe83.workers.dev/',
       media: [
-        { src: 'assets/faralobi-1-hero.jpg', alt: 'Faralobi — openingsscherm met "Waar Paramaribo aanschuift voor een bord vol lobi"' },
-        { src: 'assets/faralobi-2-verhaal.jpg', alt: 'Faralobi — sectie Ons verhaal' },
-        { src: 'assets/faralobi-3-menukaart.jpg', alt: 'Faralobi — sectie Vanavond bij Faralobi met de menukaart' },
-        { src: 'assets/faralobi-4-sfeer.jpg', alt: 'Faralobi — sfeerfoto’s van het terras en de tafels' }
+        { src: 'assets/erfeniswijzer-1-hero.jpg', alt: 'De Erfeniswijzer — openingsscherm "Uw gids bij nalatenschap en erfenis"' },
+        { src: 'assets/erfeniswijzer-2-hulp.jpg', alt: 'De Erfeniswijzer — pagina Hulp bij erfenis voor nabestaanden en executeurs' },
+        { src: 'assets/erfeniswijzer-3-kennisbank.jpg', alt: 'De Erfeniswijzer — Kennisbank met artikelen over nalatenschap en erfenis' },
+        { src: 'assets/erfeniswijzer-4-gids.jpg', alt: 'De Erfeniswijzer — pagina om de gratis gids te downloaden met aanmeldformulier' }
       ],
-      desc: 'Surinaams-Creoolse restaurantwebsite met menukaart en reservering.',
-      long: 'Een warme, sfeervolle website voor restaurant Faralobi. Met een dagelijkse menukaart per categorie, een sfeeropnamegalerij en een reserveringsformulier dat direct per e-mail of WhatsApp bij de eigenaar belandt.'
+      desc: 'Rustige, tweetalige website over nalatenschap en de afwikkeling van een erfenis.',
+      long: 'Een warme, toegankelijke website voor De Erfeniswijzer, die mensen begeleidt bij het regelen van hun nalatenschap en het afwikkelen van een erfenis. Met aparte routes voor voorbereiding en voor nabestaanden, een kennisbank met filterbare artikelen, een downloadbare gids en een contactpagina. Volledig tweetalig (NL/EN) en gebouwd op TanStack Start met server-side rendering op Cloudflare Workers.'
+    },
+    {
+      id: 'faka', title: 'FAKA', cat: 'Webshop', tag: 'Streetwear webshop & branding',
+      url: 'https://faka-vision-system.lovable.app/',
+      media: [
+        { src: 'assets/faka-1-hero.jpg', alt: 'FAKA — openingsscherm "Urban fashion for the next generation"' },
+        { src: 'assets/faka-2-shop.jpg', alt: 'FAKA — Shop All met filters op categorie en maat' },
+        { src: 'assets/faka-3-product.jpg', alt: 'FAKA — productpagina van de Oversized Hoodie met kleur- en maatkeuze' },
+        { src: 'assets/faka-4-collections.jpg', alt: 'FAKA — overzicht van collecties per categorie' }
+      ],
+      desc: 'Streetwear-webshop voor kinderen (8–14 jaar), gemaakt in Paramaribo.',
+      long: 'Een stoere, oversized streetwearwebshop voor FAKA — kinderkleding met dezelfde attitude en kwaliteit als volwassen labels, ontworpen in Paramaribo voor leeftijden 8 tot 14. Met een filterbare shop op categorie en maat, productpagina’s met kleur- en maatkeuze, collecties per categorie en een winkelmandje. Een consistente, brutale huisstijl met grote typografie en een lopende marquee.'
     },
     {
       id: 'surinamespreekt', title: 'Suriname Spreekt', cat: 'Website', tag: 'Nieuws- en opinieplatform',
@@ -34,6 +46,30 @@
       long: 'Voor Suriname Spreekt ontwierp en bouwde ik een modern, responsief webplatform dat nieuws en publieke opinie combineert. Gebruikers stemmen direct op actuele stellingen, lezen AI-samenvattingen van discussies, volgen opinietrends via een dashboard en kunnen zelf onderwerpen voorstellen. De interface is volledig tweetalig (NL/EN) en geoptimaliseerd voor mobiel gebruik.'
     },
     {
+      id: 'coralpalm', title: 'Coral Palm Suites', cat: 'Website', tag: 'Hotel- & zaalverhuurwebsite',
+      url: 'https://waterland-suites-showcase.lovable.app/',
+      media: [
+        { src: 'assets/coralpalm-1-hero.jpg', alt: 'Coral Palm Suites — openingsscherm "Hotel, vakantiewoningen en zaalverhuur in Paramaribo Zuid"' },
+        { src: 'assets/coralpalm-2-aanbod.jpg', alt: 'Coral Palm Suites — drie manieren om te genieten: hotelkamers, vakantiewoningen en zaalverhuur' },
+        { src: 'assets/coralpalm-3-woningen.jpg', alt: 'Coral Palm Suites — gemeubileerde vakantiewoningen met prijs per nacht' },
+        { src: 'assets/coralpalm-4-zaal.jpg', alt: 'Coral Palm Suites — de Coral Palm Lounge voor events, met pakketten van brons tot goud' }
+      ],
+      desc: 'Website voor een hotel met vakantiewoningen en zaalverhuur in Paramaribo Zuid.',
+      long: 'Een rustige, gastvrije one-page website voor Coral Palm Suites, waar hotelkamers, gemeubileerde vakantiewoningen en de Coral Palm Lounge voor events op één terrein samenkomen. Met aparte secties per verblijfsvorm, kamer- en woningkaarten met tarieven, eventpakketten van brons tot goud, een redenen-om-te-blijven overzicht, gastreviews en directe WhatsApp- en formulier-contactroutes. Tweetalig (NL/EN).'
+    },
+    {
+      id: 'faralobi', title: 'Faralobi', cat: 'Website', tag: 'Website & Branding',
+      url: 'https://faralobi.netlify.app/',
+      media: [
+        { src: 'assets/faralobi-1-hero.jpg', alt: 'Faralobi — openingsscherm met "Waar Paramaribo aanschuift voor een bord vol lobi"' },
+        { src: 'assets/faralobi-2-verhaal.jpg', alt: 'Faralobi — sectie Ons verhaal' },
+        { src: 'assets/faralobi-3-menukaart.jpg', alt: 'Faralobi — sectie Vanavond bij Faralobi met de menukaart' },
+        { src: 'assets/faralobi-4-sfeer.jpg', alt: 'Faralobi — sfeerfoto’s van het terras en de tafels' }
+      ],
+      desc: 'Surinaams-Creoolse restaurantwebsite met menukaart en reservering.',
+      long: 'Een warme, sfeervolle website voor restaurant Faralobi. Met een dagelijkse menukaart per categorie, een sfeeropnamegalerij en een reserveringsformulier dat direct per e-mail of WhatsApp bij de eigenaar belandt.'
+    },
+    {
       id: 'tikisu', title: 'TikiSu', cat: 'Website', tag: 'Ticketingplatform',
       url: 'https://suriname-event-spark.lovable.app',
       media: [
@@ -44,6 +80,42 @@
       ],
       desc: 'Ticketingplatform voor concerten, festivals, sport en cultuur in Suriname.',
       long: 'Een ticketingplatform waarop bezoekers evenementen zoeken op naam, locatie en datum, en boeken via een overzicht van uitgelichte, populaire en binnenkort startende evenementen — met een indeling per categorie van concerten tot sport, theater en religie.'
+    },
+    {
+      id: 'discoversuriname', title: 'Discover Suriname', cat: 'Website', tag: 'Toerismeplatform',
+      url: 'https://discover-suriname-guide.lovable.app/',
+      media: [
+        { src: 'assets/discoversuriname-1-hero.jpg', alt: 'Discover Suriname — openingsscherm "Ontdek de ongerepte ziel van Zuid-Amerika" met zoekbalk' },
+        { src: 'assets/discoversuriname-2-tours.jpg', alt: 'Discover Suriname — pagina Alle tours met filters op prijs, duur en locatie' },
+        { src: 'assets/discoversuriname-3-auto.jpg', alt: 'Discover Suriname — Autoverhuur met filters op voertuigtype en transmissie' },
+        { src: 'assets/discoversuriname-4-suriname.jpg', alt: 'Discover Suriname — pagina Over Suriname over natuur, rivieren en culturen' }
+      ],
+      desc: 'Tweetalig toerismeplatform voor tours, autoverhuur en transfers in Suriname.',
+      long: 'Een sfeervol, tweetalig (NL/EN) toerismeplatform voor Discover Suriname. Bezoekers zoeken en filteren tours op prijs, duur en locatie, huren een auto op voertuigtype en transmissie, boeken transfers en lezen over de bestemming. Met een zoekbalk in de hero, uitgelichte bestemmingen, reviews en een rustige, premium uitstraling.'
+    },
+    {
+      id: 'techfix', title: 'TechFix.sr', cat: 'Website', tag: 'Bedrijfswebsite & online betalen',
+      url: 'https://suri-tech-fix.lovable.app/',
+      media: [
+        { src: 'assets/techfix-1-hero.jpg', alt: 'TechFix.sr — openingsscherm "Snelle laptop en PC reparatie in Suriname"' },
+        { src: 'assets/techfix-2-diensten.jpg', alt: 'TechFix.sr — dienstenoverzicht met reparatie, upgrades en onderhoud' },
+        { src: 'assets/techfix-3-aanmelden.jpg', alt: 'TechFix.sr — online reparatieformulier met apparaatgegevens en foto-upload' },
+        { src: 'assets/techfix-4-betalen.jpg', alt: 'TechFix.sr — online betalen via Mope voor reparaties, aanbetalingen en facturen' }
+      ],
+      desc: 'Bedrijfswebsite voor een laptop- en PC-reparateur, met online aanmelden en betalen.',
+      long: 'Een strakke one-page bedrijfswebsite voor TechFix.sr, een laptop- en computerreparateur in Suriname. Met een volledig dienstenoverzicht, transparante richtprijzen, een uitgebreid online reparatieformulier (apparaattype, probleemomschrijving, foto-upload) en een betaalmodule via Mope voor reparaties, aanbetalingen en facturen. Verder een werkwijze in vijf stappen, reviews, FAQ en directe WhatsApp-contactknoppen.'
+    },
+    {
+      id: 'spaarquest', title: 'Spaar Quest', cat: 'Webapp', tag: 'Gamified spaartracker',
+      url: 'https://treasure-quest-bank.lovable.app/',
+      media: [
+        { src: 'assets/tqb-1-schatkist.jpg', alt: 'Spaar Quest — "Mijn Schatkist" met levelbalk, spaardoel en voortgang' },
+        { src: 'assets/tqb-2-buit.jpg', alt: 'Spaar Quest — sectie Buit Binnenhalen met verkochte items en het zakgeldpotje' },
+        { src: 'assets/tqb-3-oudermodus.jpg', alt: 'Spaar Quest — PIN-beveiligde Ouder Modus met zakgeld- en wisselkoersinstellingen' },
+        { src: 'assets/tqb-4-beheer.jpg', alt: 'Spaar Quest — Ouder Modus, beheer van verkopen en inkomsten per valuta' }
+      ],
+      desc: 'Gamified spaar-webapp voor kinderen, met een PIN-beveiligde oudermodus.',
+      long: 'Een speelse, gamified spaartracker-webapp voor kinderen: een "schatkist" met levels, voortgangsbalken en confetti bij het behalen van een doel. Kinderen volgen hun spaardoelen (zoals een e-bike of Xbox), boeken zakgeld en verkopen in, en zien alles omgerekend naar EUR, USD of SRD. Een PIN-beveiligde Ouder Modus laat ouders zakgeld, wisselkoersen, doelen en inkomsten beheren. Gebouwd met React en TanStack Start, met lokale opslag zodat de voortgang bewaard blijft.'
     },
     {
       id: 'social', title: 'Social Media Instellingen', cat: 'Branding', tag: 'Social Media Management',
@@ -61,11 +133,6 @@
       id: 'shop', title: 'Tropic Store', cat: 'Webshop', tag: 'WooCommerce', media: [], slot: 'webshop screenshot',
       desc: 'WooCommerce webshop met lokale betaalmethodes.',
       long: 'Complete WooCommerce webshop: productbeheer, voorraad, verzendzones en lokale betaalmethodes. Ingericht zodat de eigenaar alles zelf kan onderhouden.'
-    },
-    {
-      id: 'seo', title: 'Bouwbedrijf Kwatta', cat: 'SEO', tag: 'SEO & Optimalisatie', media: [], slot: 'before / after graph',
-      desc: 'Van pagina 4 naar top 3 in Google op kernzoektermen.',
-      long: 'Technische SEO-opschoning, snellere laadtijden en herschreven pagina’s per dienst. Binnen vier maanden een top 3-positie op de belangrijkste zoektermen.'
     },
     {
       id: 'brand', title: 'Sranan Kitchen', cat: 'Branding', tag: 'Logo & Huisstijl', media: [], slot: 'logo & huisstijl',
@@ -141,7 +208,7 @@
     { id: 'contact', label: 'Contact' }
   ];
 
-  var CATEGORIES = ['Alles', 'Website', 'Webshop', 'SEO', 'Branding'];
+  var CATEGORIES = ['Alles', 'Website', 'Webshop', 'Webapp', 'Branding'];
 
   var PAGE_TITLES = {
     home: 'Amresh — Freelance Webdesigner in Suriname',
