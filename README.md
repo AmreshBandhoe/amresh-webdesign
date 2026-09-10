@@ -28,7 +28,9 @@ Then open <http://localhost:4180>. No build step — plain HTML, CSS and JS.
 `app.js` holds the content as plain arrays near the top — `PROJECTS`,
 `SERVICES`, `SERVICE_DETAIL`, `STEPS`, `SKILLS`, `TIMELINE`, `CONTACT_LINES`.
 Editing copy or adding a project means editing those arrays; nothing else needs
-to change.
+to change. The homepage features the first four `PROJECTS` entries as cards,
+thinned to three (≤900px) and two (≤600px) by CSS in the `.featured` rules, so
+project order controls what's shown there.
 
 Five pages are routed on the hash: `#/home`, `#/over`, `#/diensten`,
 `#/portfolio`, `#/contact`. A project detail also deep-links, e.g.

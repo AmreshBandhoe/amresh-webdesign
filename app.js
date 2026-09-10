@@ -336,7 +336,7 @@
   }
 
   function featuredCards() {
-    return map(PROJECTS.slice(0, 3), function (p) {
+    return map(PROJECTS.slice(0, 4), function (p) {
       return '<a class="featured__card" href="#/portfolio/' + esc(p.id) + '">' +
         '<div class="featured__frame">' + mediaMarkup(p.media, true) + '</div>' +
         '<div class="featured__title">' + esc(p.title) + '</div>' +
